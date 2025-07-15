@@ -1,0 +1,63 @@
+what are some prominent tools and frameworks in vibe coding and which ones to use for which use case ?
+
+## Prominent Vibe Coding Tools and Frameworks
+
+Vibe coding tools turn natural language prompts into code, supporting rapid development and collaborative workflows. Here are the most recognized tools and frameworks in 2025, along with guidance on which to use for specific banking and capital markets use cases.
+
+### Leading Vibe Coding Tools
+
+| Tool/Framework   | Best For                                                | Key Features & Use Cases                                            |
+|------------------|--------------------------------------------------------|---------------------------------------------------------------------|
+| **Bolt**         | Flexible prototyping & app integrations                | Wide integrations (Stripe, Figma, Supabase, GitHub); file targeting; recommended for rapid prototyping of digital banking products, custom internal apps, and API mashups[1]. |
+| **Cursor**       | Debugging, quality assurance, deep customizable coding | Integrates with AI models (like Sonnet); strong for code review, debugging, and customizing AI-generated code—ideal for regulated banking modules needing human verification and compliance checks[1][2]. |
+| **Memex**        | Advanced & diverse builds (APIs, ML, 3D, custom)       | Supports many project types beyond web/mobile (APIs, ML, games); offers local control—suitable for developing advanced financial analytics engines or internal research tools[1]. |
+| **Replit**       | All-in-one, beginner-friendly, live web/MVP builds     | Cloud-based collaborative coding; supports full-stack projects; excellent for hackathons, demos, and fast MVPs[3]. |
+| **GitHub Copilot** | Assisted coding alongside human input                 | Great for “co-piloting”—generates code snippets and accelerates implementation within VS Code. Useful for automating repetitive code or embedding compliance checks in existing development pipelines[4][5]. |
+| **ChatGPT / OpenAI Models** | Conversational generation & documentation           | Direct prompt-to-code generation; assists with documentation, explanations, boilerplate code—useful for describing regulatory updates or workflow automations in plain English and getting immediate code[6][4]. |
+| **Tabnine, AskCodi, Qodo Merge** | Niche code completion and code integrity       | Specialized for code suggestions, refactoring, and code quality—ideal for ensuring generated code meets audit or security standards in finance[5][7]. |
+
+### Notable Frameworks
+
+- **Vibe Programming Framework**: Community-driven, providing structure, security, and maintainability standards for AI-generated code. Recommended for enterprise banking projects requiring traceability, documentation, and compliance assurance[8].
+- **Full-stack code generators (like Wasp)**: Batteries-included frameworks allowing end-to-end development by simply describing your application architecture in prompts, which is optimal for quickly rolling out new digital financial products or portals[9].
+
+## Matching Tools & Frameworks to Use Cases
+
+| Use Case                                     | Recommended Tools/Frameworks                          | Rationale                                            |
+|-----------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+| Rapid Prototyping & Product Innovation        | Bolt, Replit, ChatGPT/OpenAI                         | Speed, integration flexibility, and natural language prototyping[1][6][3].   |
+| Automation of Internal Workflows              | GitHub Copilot, Tabnine, ChatGPT/OpenAI              | Streamlines repetitive code, quick logic generation[6][4][5].    |
+| Regulatory Compliance & Reporting             | Cursor, Vibe Programming Framework, Qodo Merge       | Emphasizes code review, documentation, and compliance validation[1][8][7].   |
+| Security & Risk Management Modules            | Cursor, Tabnine, Qodo Merge                          | Quality assurance and strong focus on secure coding practices[1][5][7].      |
+| Legacy System Modernization                   | Memex, Cursor, OpenAI                                | APIs, connectors, and refactoring for old systems[1][6].      |
+| Empowering Domain Experts (No-Code/Low-Code)  | Replit, ChatGPT/OpenAI, Bolt                         | Accessible interfaces, easy prompt-based app building[1][6][3].|
+
+### Additional Considerations
+
+- For **banking and capital markets**, always pair these tools with frameworks like the Vibe Programming Framework and strict human review for secure, compliant deployments[8].
+- For mission-critical systems, prioritize tools that allow in-depth debugging and clear documentation (Cursor, Qodo Merge).
+
+**In summary:**  
+Select your tool based on the task’s regulatory sensitivity, required integrations, and the expertise of your team members. For innovation, Bolt and Replit excel. For compliance-heavy projects, use Cursor and structured frameworks. For democratized coding and documentation, ChatGPT and Copilot are most effective when paired with proper validation[1][6][4][8][3][5][7].
+
+Citations:
+[1] The 8 best vibe coding tools in 2025 - Zapier https://zapier.com/blog/best-vibe-coding-tools/
+[2] Vibe coding as a productivity tool: What banks should know https://www.americanbanker.com/news/is-vibe-coding-safe-for-banks
+[3] What's the current best and simplest vibe coding stack ... - Reddit https://www.reddit.com/r/ChatGPTCoding/comments/1k5g89v/whats_the_current_best_and_simplest_vibe_coding/
+[4] Top Ten AI Tools for Code Generation in 2025 - Inspirisys https://www.inspirisys.com/public/blog-details/Top-Ten-AI-Tools-for-Code-Generation-in-2025/190
+[5] 15 Best AI Coding Assistant Tools in 2025 - Qodo https://www.qodo.ai/blog/best-ai-coding-assistant-tools/
+[6] AI Code Tools: The Ultimate Guide in 2025 - CodeSubmit https://codesubmit.io/blog/ai-code-tools/
+[7] 6 Vibe Coding Tools to Build Fast and Keep Code Quality Sharp https://www.qodo.ai/blog/vibe-coding-tools/
+[8] Vibe Coding Framework: Introduction https://docs.vibe-coding-framework.com
+[9] A Structured Workflow for "Vibe Coding" Full-Stack Apps https://dev.to/wasp/a-structured-workflow-for-vibe-coding-full-stack-apps-352l
+[10] Vibe coding - Wikipedia https://en.wikipedia.org/wiki/Vibe_coding
+[11] What is vibe coding and how does it work? - Google Cloud https://cloud.google.com/discover/what-is-vibe-coding
+[12] Top Ten AI Tools for Code Generation in 2025 - Inspirisys https://www.inspirisys.com/blog-details/Top-Ten-AI-Tools-for-Code-Generation-in-2025/190
+[13] Level Up Your Coding Game with These Free Vibe Coding Tools! https://dev.to/pavanbelagatti/level-up-your-coding-game-with-these-free-vibe-coding-tools-2fii
+[14] AI Code Generation: An AI Software Development Guide - Zencoder https://zencoder.ai/blog/about-ai-code-generation
+[15] AI code-generation software: What it is and how it works? - IBM https://www.ibm.com/think/topics/ai-code-generation
+[16] What is Vibe Coding? | IBM https://www.ibm.com/think/topics/vibe-coding
+[17] Vibe Coding Fundamentals In 33 minutes - YouTube https://www.youtube.com/watch?v=iLCDSY2XX7E
+[18] It is almost May of 2025. What do you consider to be the best coding ... https://www.reddit.com/r/LocalLLaMA/comments/1k0nxlb/it_is_almost_may_of_2025_what_do_you_consider_to/
+[19] 20 Top Vibe Coding Tools for Faster Software Development in 2025 https://www.prismetric.com/vibe-coding-tools/
+[20] 17 Best AI Code Generators for 2025 - Qodo https://www.qodo.ai/blog/best-ai-code-generators/
